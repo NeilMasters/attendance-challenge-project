@@ -1,0 +1,3 @@
+doctrine:
+    dbal:
+        url: '%env(resolve:INTEGRATION_DATABASE_URL)%'
